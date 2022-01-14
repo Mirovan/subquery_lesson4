@@ -2,8 +2,6 @@
 
 Author: Mirovan
 
-#Install and run SubQuery
-
 ##Prepare install
 ```
 sudo apt-get install mc
@@ -28,7 +26,7 @@ npm install -g @subql/cli
 
 ##Clone project from GitHub
 ```
-
+git clone https://github.com/subquery/tutorials-simple-aggregation_v2.git
 ```
 
 ##Create and build project
@@ -39,4 +37,8 @@ yarn install
 yarn codegen
 yarn build
 ```
+
+##Run project
+```
 docker-compose pull && docker-compose up
+```
